@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ibase=water;obase=bestchol;$(tr 'water' '0-4' <<< "$WATER") + $(tr 'stir' '0-4' <<< "$STIR")" | bc
